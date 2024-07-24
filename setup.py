@@ -5,7 +5,7 @@ except ImportError:
     from distutils.core import setup
 
 # We use calendar versioning
-version = "2024.07.22"
+version = "2024.07.24"
 
 with open("README.md") as readme_file:
     long_description = readme_file.read()
@@ -13,11 +13,13 @@ with open("README.md") as readme_file:
 setup(
     name="cookiecutter-django",
     version=version,
-    description=("A Cookiecutter template for creating production-ready " "Django projects quickly."),
+    description=(
+        "A Cookiecutter template for creating production-ready Django projects quickly. Inspired by https://github.com/cookiecutter/cookiecutter-django."
+    ),
     long_description=long_description,
-    author="Daniel Roy Greenfeld",
-    author_email="pydanny@gmail.com",
-    url="https://github.com/cookiecutter/cookiecutter-django",
+    author="Enrico Maassa",
+    author_email="enrico.massa@gmail.com",
+    url="https://github.com/em1208/cookiecutter-django",
     packages=[],
     license="BSD",
     zip_safe=False,
