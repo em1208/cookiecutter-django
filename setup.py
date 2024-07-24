@@ -14,7 +14,7 @@ setup(
     name="cookiecutter-django",
     version=version,
     description=(
-        "A Cookiecutter template for creating production-ready Django projects quickly. Inspired by https://github.com/cookiecutter/cookiecutter-django."
+        "A Cookiecutter template for creating production-ready Django projects quickly. Forked from https://github.com/cookiecutter/cookiecutter-django."
     ),
     long_description=long_description,
     author="Enrico Maassa",
